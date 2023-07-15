@@ -23,7 +23,7 @@ function Login() {
     <div>
       <h2>Login</h2>
       {/* <button onClick={LoginHandler}>Login with Google</button> */}
-      <a href='http://localhost:8080/auth/google' > login</a>
+      <a href='https://localhost:8080/auth/google' > login</a>
     </div>
   );
 }
