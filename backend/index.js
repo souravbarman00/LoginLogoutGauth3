@@ -53,7 +53,7 @@ passport.deserializeUser((user, done) => {
 
 // Routes
 app.get('/', (req, res) => {
-  res.send('<a href="/auth/google">Login with Google</a>');
+  res.redirect('http://localhost:3000/');
 });
 
 app.get('/auth/google', passport.authenticate('google', { scope: ['profile'] }));
